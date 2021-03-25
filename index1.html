@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Muffain</title>
+	<link rel= "stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+<body>
+
+<header>
+	<nav>
+		<div class="row clearfix">
+			<image src="image/logo0.jpg" alt="Omnifood logo" class="logo">
+
+				  <ul class="main-nav animated sildeInDown" id="main-nav-js">
+				  	<li> <a href="#">CAKE DELIVERY</a></li>
+				  	<li> <a href="#">HOW TO ORDER</a></li>
+				  	<li> <a href="#">CHECK MORE</a></li>
+				  	<li> <a href="#">SIGN UP</a></li>
+				  	
+				  </ul>
+				  <a class="mobile-nav-icon js--nav-icon"> <i class="ion-navicon-round"> </i></a>
+				  <a class="mobile-icon"  onclick="slideshow()"> <i class="fa fa-bars" id="changebar"></i></a>
+			</div>
+		</nav>
+	
+		<div class="main-content-header">
+		<h1>WELCOME TO <span class="colorchange">PIE BAR</span>.<br>
+		    HOUSE OF CAKE LOVER OO YES.</h1>
+		    <a  class="btn btn-full animated slideInLeft" href="#">click to order </a>
+		    <a class="btn btn-full animated slideInRight" href="#">show me more </a>
+		    </div>
+</header>
+<script type="text/javascript">
+	function slideshow(){
+		var x = document.getElementById('check-class')
+		 if (x.style.display == "none"){
+		     x.style.display == "block";
+		 
+		 }else{
+		 	x.style.display == "none";
+		 }
+
+	}
+
+</script>
+
+
+
+</body>
+</html>
